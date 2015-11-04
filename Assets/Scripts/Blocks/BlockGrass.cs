@@ -6,7 +6,7 @@ public class BlockGrass : Block
 {
     protected Tile TopTile, BottomTile, SideTile;
 
-    public BlockGrass() : base()
+    public BlockGrass() : base("voxel:grass")
     {
         TopTile = new Tile(2, 0);
         BottomTile = new Tile(1, 0);

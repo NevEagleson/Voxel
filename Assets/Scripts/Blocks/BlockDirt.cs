@@ -6,7 +6,7 @@ public class BlockDirt : Block
 {
     protected Tile Tile;
 
-    public BlockDirt() : base()
+    public BlockDirt() : base("voxel:dirt")
     {
         Tile = new Tile(1, 0);
     }

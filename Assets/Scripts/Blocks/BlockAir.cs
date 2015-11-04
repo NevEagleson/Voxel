@@ -4,7 +4,7 @@ using Voxel;
 
 public class BlockAir : Block
 {
-    public BlockAir() : base()
+    public BlockAir() : base("voxel:air")
     {
 
     }
